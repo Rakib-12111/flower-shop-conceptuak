@@ -1,0 +1,71 @@
+
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+
+.banner-section-container{
+    max-width: 1536px;
+    height: 600px;
+    background-color: #FCEEF1;
+    display: flex;
+}
+.banner-content{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.banner-text-container{
+    width: 40%;
+    height: 600px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner-text{
+    line-height: 100px;
+}
+
+.button-container{
+  
+width: 177px;
+height: 64px;
+margin-right: 380px;
+background-color: #E55473;
+border: none;
+margin-top: 20px;
+border-radius: 5px;
+}
+
+
+.banner-image-cointainer{
+    width: 60%;
+    height: 600PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.banner-image-cointainer img{
+    width: 50%;
+    height: 600PX;
+    
+    
+}
